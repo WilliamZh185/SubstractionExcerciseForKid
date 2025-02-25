@@ -12,21 +12,26 @@
     padding: 10px;
 }
 
+.apple-baskets img {
+    margin: 5px;
+}
+
 .notif {
     padding: 10px;
     font-size: 110%;
     border-radius: 5px;
+    border: 3px solid white;
 }
 .notif p {
     margin: 0;
 }
 
 .notif-correct {
-    background-color: darkgreen;
-    color: white;
+    border-color: darkgreen;
+    color: darkgreen;
 }
 .notif-wrong {
-    background-color: lightcoral;
+    border-color: lightcoral;
     color: darkred;
 }
 

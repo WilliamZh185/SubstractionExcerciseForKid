@@ -19,20 +19,9 @@
                  <!-- Apple Baskets -->
                 <div class="card">
                     <div class="card-body">
-                        <h5 id="celine" class="card-title">You have <span id="myapple">10</span> Apples!</h5>
+                        <h5 id="celine" class="card-title">Celine punya <span id="myapple">10</span> Apel</h5>
                         <div id="myapplebasket" class="apple-baskets">
                             <!-- put apples here -->
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
                             
                         </div>
                     </div>
@@ -44,12 +33,9 @@
                 <!-- Apple Baskets -->
                 <div class="card hidden" id="papisbox">
                     <div class="card-body">
-                        <h5 id="papi" class="card-title">Oh No! Papi takes <span id="applestaken">2</span> Apples away!</h5>
+                        <h5 id="papi" class="card-title">Waduh!! Apelnya diambil sama Papi <span id="applestaken">2</span> buah!</h5>
                         <div id="applestakenbasket" class="apple-baskets">
                             <!-- put apples here -->
-                             
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
-                            <img src="/assets/apple.png" width="40" height="40" alt="Apple Image" />
                             
                         </div>
                     </div>
@@ -61,20 +47,25 @@
         <div class="row mt5p pd10">
             
             <div id="notificationBoxCorrect" class="notif notif-correct hidden">
-                <p><strong>You're Correct!</strong></p> 
+                <p><strong>Kamu Bener! Good Job!</strong></p> 
+                <img src="./assets/kuromi-happy.png" width="200" height="auto" alt="Kuromi Correct" /><br />
             </div>
 
             <div id="notificationBoxWrong" class="notif notif-wrong hidden">
-                <p><strong>Not Correct!</strong> Try again ^_^ </p> 
+                <p><strong>Salah, dek!</strong> Coba lagi ya ^_^ </p> 
+                <img src="./assets/kuromi-sad.png" width="200" height="auto" alt="Kuromi Sad" />
             </div>
 
         </div>
 
 
         <div id="question" class="row mt5p pd10 hidden">
-            <h3>How Many Apples you have left?</h3>
-            <input id="answerbox" class="form-control form-control-lg" type="text" placeholder="Type your answer">
-            <button id="submitButton" type="submit" class="btn btn-primary mt-3">Submit Answer</button>
+            <div id="questionbox">
+                <h3>Apelmu sisa berapa?</h3>
+                <input id="answerbox" class="form-control form-control-lg" type="text" placeholder="Type your answer">
+                <button id="submitButton" type="submit" class="btn btn-primary mt-3">Kirim Jawaban</button>
+            </div>
+            <button id="tryAgainButton" type="button"  class="btn btn-primary mt-3 hidden">Coba lagi, ah</button>
         </div>
        
 
