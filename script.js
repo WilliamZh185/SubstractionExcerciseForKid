@@ -58,3 +58,8 @@ renderApples();
 
 // Add event listener to the submit button
 document.getElementById("submit-btn").addEventListener("click", handleSubtraction);
+
+// Add event listener to the "Go to Level 2" button
+document.getElementById("next-level-btn").addEventListener("click", () => {
+    window.location.href = "level2.html";
+  });

@@ -1,0 +1,31 @@
+/* UTILITIES */
+
+.mt5p {
+    margin-top: 5%
+}
+
+.notif {
+    padding: 10px;
+    font-size: 110%;
+    border-radius: 5px;
+}
+.notif p {
+    margin: 0;
+}
+
+.notif-correct {
+    background-color: darkgreen;
+    color: white;
+}
+.notif-wrong {
+    background-color: lightcoral;
+    color: darkred;
+}
+
+.text-white {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
