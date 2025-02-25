@@ -4,6 +4,14 @@
     margin-top: 5%
 }
 
+.mb5p {
+    margin-bottom: 5%
+}
+
+.pd10 {
+    padding: 10px;
+}
+
 .notif {
     padding: 10px;
     font-size: 110%;
